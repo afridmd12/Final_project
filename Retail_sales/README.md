@@ -69,15 +69,15 @@ This dashboard provides insights into customer performance, regional sales trend
 
 ## 🌍 Sales and Profit by Segment and Region
 
-![Sales and Profit by Segment and Region](Retail_sales/Dashboard/Total_Sales_Breakdown.png)
+![Sales and Profit by Segment and Region](Dashboard/Total_Sales_Breakdown.png)
 
 ## 📦 Sales and Profit by Sub-Category
 
-![Sales and Profit by Sub-Category](Retail_sales/Dashboard/Sales_&_Product_Performance.png)
+![Sales and Profit by Sub-Category](Dashboard/Sales_&_Product_Performance.png)
 
 ## 📊 Sales vs Profit Analysis
 
-![Sales vs Profit Scatter Plot](Retail_sales/Dashboard/Store_&_Promotion_Strategy.png)
+![Sales vs Profit Scatter Plot](Dashboard/Store_&_Promotion_Strategy.png)
 
 ---
 
