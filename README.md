@@ -1,86 +1,94 @@
-# 📺 YouTube Trending Analytics
+# Retail Data Analysis & Visualization Project
 
-Analyze global YouTube trending videos to uncover insights on viewer engagement, sentiment in titles and tags, regional trends, and genre popularity.
+## Overview
 
-## 📌 Overview
+This project focuses on analyzing and visualizing retail data using a combination of SQL, Python (Jupyter Notebook), and Power BI. It covers data extraction, transformation, exploration, and the creation of interactive dashboards to derive actionable insights.
 
-This project explores a multi-country YouTube trending dataset to:
+## Dataset
 
-- Identify top trending video categories
-- Perform sentiment analysis on video titles and tags using VADER NLP
-- Rank categories by views using SQL
-- Visualize time-series trends and regional differences with Power BI
-- Create a professional dashboard for storytelling and insights
+- Source: [Large Retail Dataset for EDA (Kaggle)](https://www.kaggle.com/datasets/utkalk/large-retail-data-set-for-eda)
 
-## 🧰 Tools & Technologies
-
-- Python (pandas, seaborn, matplotlib)
-- Natural Language Toolkit (VADER Sentiment)
-- SQL (PostgreSQL)
-- Power BI (Data visualization & dashboarding)
-- Jupyter Notebook (.ipynb)
-- Dataset: CSV from Kaggle
-
-## 📁 Dataset
-
-- Source: [YouTube Trending Videos Dataset (Kaggle)](https://www.kaggle.com/datasets/thedevastator/youtube-trending-videos-dataset)
-- Description: Trending video data from multiple countries including title, category, views, likes, tags, publish time, and more.
+## Project Structure
 
 
-## 📊 Power BI Dashboard Pages
+## Objectives
 
-1. 📌 Global Overview – KPIs, top categories, trending durations  
-2. 🌍 Country Comparison – Views, likes, and category breakdown by country  
-3. 💬 Sentiment Analysis – VADER-based compound scores on titles and tags  
-4. 👤 Channel Insights – Top creators, upload frequency, and engagement  
+- Perform data cleaning and exploration on a large retail dataset.
+- Use SQL for querying and preparing data for analysis.
+- Create visualizations and KPIs to highlight key business insights.
+- Build a Power BI dashboard to present findings in an interactive format.
+
+## Contents
+
+### 🔍 Jupyter Notebook (`.ipynb`)
+
+- Initial exploration of the dataset
+- Data cleaning and feature engineering
+- Exploratory data analysis using Python libraries
+
+### 🗃️ SQL Queries (`.sql`)
+
+- Data extraction and transformation logic
+- Aggregations, joins, and filters to prepare data for reporting
+
+### 📊 Power BI Report
+
+- **Download the dashboard** from the link below:
+  👉 [Google Drive - Power BI Dashboard](https://drive.google.com/file/d/1nk_jAQ0lVvK1BJd_pR1v2v9DXFYdmcLO/view?usp=sharing)
+
+  **Important:** Google Drive preview might not work for `.pbix` files.  
+  To open the dashboard:
+  1. Click the link above.
+  2. Click the **Download** button (top-right corner).
+  3. Open the downloaded file using **Power BI Desktop**.
+
+## Tools Used
+
+- **Python** (Jupyter Notebook)
+- **SQL**
+- **Power BI**
+
+## How to Use
+
+1. **SQL Setup:**
+   - Run `data_queries.sql` against your SQL environment to prepare the dataset.
+
+2. **Jupyter Notebook:**
+   - Open `data_analysis.ipynb` in Jupyter to view data cleaning, EDA, and transformations.
+
+3. **Power BI:**
+   - Download and open the `.pbix` dashboard from the [Google Drive link](https://drive.google.com/file/d/1nk_jAQ0lVvK1BJd_pR1v2v9DXFYdmcLO/view?usp=sharing) using Power BI Desktop.
+
+# Sales Analysis Dashboard
+
+This dashboard provides insights into customer performance, regional sales trends, and product profitability using Superstore dataset visualizations.
+
+## 🔝 Top Customers
+
+![Top 10 Customers by Sales](b9aed560-2c1b-441d-9917-4971d3e085b3.png)
+
+## 🌍 Sales and Profit by Segment and Region
+
+![Sales and Profit by Segment and Region](d093d79e-f7aa-41bb-8fc3-617c7a99ab11.png)
+
+## 📦 Sales and Profit by Sub-Category
+
+![Sales and Profit by Sub-Category](1721e762-bee1-48f2-8f10-921b6459b262.png)
+
+## 📊 Sales vs Profit Analysis
+
+![Sales vs Profit Scatter Plot](29f8145c-c5ea-4c18-a948-5ab4cdc60054.png)
 
 ---
 
-## 💬 Sentiment Analysis
+### 📌 Insights Summary
 
-We used the VADER sentiment model to calculate emotional tone in:
-
-- 🎯 Video Titles → `title_compound`  
-- 🏷️ Video Tags → `tags_compound`
-
-These were added as new columns in the dataset to analyze how sentiment correlates with views and likes.
+- **Top Customers**: Focus marketing and loyalty programs on high-value individuals.
+- **Regional Analysis**: Tailor strategies based on which segments succeed where.
+- **Product Analysis**: Optimize pricing or remove low-profit sub-categories.
+- **Profitability View**: Watch for sales-heavy but profit-weak products.
 
 ---
+## License
 
-## 📈 Key Insights
-
-- ✅ Videos with positive titles and tags generally receive more engagement  
-- 🎵 Music and Entertainment dominate the trending categories  
-- 🌐 Regional differences in category preferences and trending durations  
-- 👥 Creators with consistent uploads and emotional language perform better  
-
----
-
-## 📄 How to Use
-
-1. Clone the repository  
-2. Run `sentiment_analysis.ipynb` to preprocess and analyze sentiment  
-3. Load the output CSV in Power BI using the provided `.pbix` file  
-4. Explore the dashboard for insights across countries, categories, and sentiments  
-
----
-
-## ✅ Deliverables
-
-- ☑ Power BI Dashboard  
-- ☑ Sentiment Analysis (VADER NLP)  
-- ☑ SQL Category Rankings  
-- ☑ Data Storytelling Presentation (PPTX)  
-- ☑ Project Summary Document (DOCX)
-  
----
-
-## 📂 Project Structure
-
-```bash
-├── sentiment_analysis.ipynb     # Python code for cleaning and sentiment analysis
-├── yout.sql                     # SQL queries for category ranking and aggregation
-├── YouTube_Trending.pbix        # Power BI dashboard (4 pages)
-├── youtube_with_sentiment.csv   # Enriched dataset with sentiment scores
-├── Youtube_Trending_Storytelling_Presentation.pptx  # Final presentation
-└── YouTube_Trending_Project_Overview.docx           # Project overview document
+This project is intended for educational and portfolio demonstration purposes.
