@@ -65,7 +65,7 @@ This dashboard provides insights into customer performance, regional sales trend
 
 ## 🔝 Top Customers
 
-![Top 10 Customers by Sales](Dashboard/Customer_&_Behavioral_Analytics.png)
+![Top 10 Customers by Sales](Retail_sales/Dashboard/Customer_&_Behavioral_Analytics.png)
 
 ## 🌍 Sales and Profit by Segment and Region
 
