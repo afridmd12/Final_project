@@ -87,8 +87,3 @@ This dashboard provides insights into customer performance, regional sales trend
 - **Regional Analysis**: Tailor strategies based on which segments succeed where.
 - **Product Analysis**: Optimize pricing or remove low-profit sub-categories.
 - **Profitability View**: Watch for sales-heavy but profit-weak products.
-
----
-## License
-
-This project is intended for educational and portfolio demonstration purposes.
